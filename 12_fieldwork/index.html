@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12</title>
+    <link href="https://fonts.google.com/?selection.family=Open+Sans:300,400,700|Roboto+Mono&query=roboto+mon">
+    <link rel="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --taronja:#EFB73A;
+            --grisf:#3C3C3B;
+            --grism:#706F6F;
+            --grisc:#E1DEDA;
+            --terra:#EFECE7;
+            --negre:#1D1D1B;
+        }
+        img{
+            width: 100%;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+        }
+        nav{
+            z-index: 2;
+            display: flex;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 120px;
+            width: 100%;
+            font-weight: 700;
+            position: fixed;
+            background: var(--terra);
+            padding: 1em 0;
+        }
+        .navigation{
+            width: 40%;
+            padding: 0.5em 0 0 0;
+        }
+        .navigation a{
+            margin: 0 0.5em 0 0;
+        }
+        .navigation a:first-child{
+            color: var(--taronja);
+            border-bottom: 2px solid var(--taronja);
+        }
+        .navigation a:first-child:hover{
+            border-bottom: 2px solid var(--taronja);
+        }
+        .navigation a:hover{
+            border-bottom: 2px solid var(--negre);
+        }
+        .logo{
+            width: 60%;
+        }
+        h1{
+            width: 100%;
+            text-align: right;
+        }
+        h1 svg{
+            height: 40px;
+            width: 40px;
+        }
+        nav a{
+            color: var(--grisf);
+            padding: 0 0 2em 0;
+        }
+        header{
+            height: 60vh;
+            background: var(--terra);
+            padding: 10em 3em;
+        }
+        header h2{
+            font-size: 2em;
+            color: var (--grisf);
+            width: 75%;
+            text-align: justify;
+            hyphens: auto;
+            line-height: 1.2em;
+        }
+        main{
+            width: 100%;
+        }
+        section{
+            position: relative;
+            height: 600px;
+            overflow: hidden;
+        }
+        .content_txt{
+            position: absolute;
+            width: 100%;
+            padding: 4em 3em;
+            color: white;
+            z-index: 1;
+        }
+        .content_txt h3{
+            font-weight: 700;
+            font-size: 2em;
+        }
+        .content_txt h4{
+            font-weight: 400;
+            font-size: 2em;
+        }
+        .content_txt p{
+            float: left;
+            font-family: 'Roboto Mono', monospace;
+            border-bottom: 1px solid white;
+            font-size: 1.5em;
+            padding: 0 0 0.5em 0;
+        }
+        .content_img{
+            object-fit: cover;
+            object-position: center;
+        }
+        .question{
+            width: 100%;
+            text-align: center;
+            font-weight: 300;
+            font-size: 2em;
+            padding: 3em 0 0 0;
+        }
+        .button{
+            width: 100%;
+            display: flex;
+            align-content: center;
+        }
+        section:last-child p{
+            width: 100%;
+            text-align: center;
+            margin: 4em 0 0 0;
+        }
+        span{
+            padding: 2em;
+            border: 1px solid var(--taronja);
+            color: var(--taronja);
+            background: white;
+            transition: 1s background;
+        }
+        span:hover{
+            color: white;
+            background: var(--taronja);
+        }
+        footer{
+            padding: 2em 3em;
+            background: var(--terra);
+            display: flex;
+        }
+        .col-1{
+            width: 20%;
+        }
+        .col-2{
+            width: 50%;
+        }
+        .col-3{
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+       <div class="navigation">
+        <a href="#">Fieldwork</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Work</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        </div>
+        <div class="logo">
+        <a href="#"><h1><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 70 109" style="enable-background:new 0 0 70 109;" xml:space="preserve">
+        <style type="text/css">
+	        .st0{fill:#E89B00;}
+        </style>
+        <rect class="st0" width="21" height="109"/>
+        <rect x="25" class="st0" width="45" height="19"/>
+        <rect x="25" y="40" class="st0" width="45" height="21"/>
+        </svg> </h1></a>
+        </div>
+    </nav>
+    <header>
+        <h2>Fieldwork is a design and technology studio. We build brands, digital products and services centred around the people who use them.</h2>
+    </header>
+    <main>
+        <section>
+            <div class="content_txt">
+                <h3>Fabled</h3>
+                <h4>A storytelling platform for kids</h4>
+                <a href="#"><p></p></a>
+            </div>
+            <div class="content_img">
+                <img src="img/Illustrated%20house%20used%20as%20inspiration%20in%20the%20Fabled%20digital%20product.png">
+            </div>
+        </section>
+        <section>
+            <div class="content_txt">
+                <h3>Penguin Like a Woman</h3>
+                <h4>A campaign to celebrate women in literature</h4>
+                <a href="#"><p></p></a>
+            </div>
+            <div class="content_img">
+                <img src="img/Penguin%20Like%20a%20Woman.jpeg">
+            </div>
+        </section>
+        <section>
+            <div class="content_txt">
+                <h3>Fiends of the Earth Nature Kit</h3>
+                <h4>Encouraging charity donations with a kit for nature conscious people</h4>
+                <a href="#"><p></p></a>
+            </div>
+            <div class="content_img">
+                <img src="img/Illustrated%20nature%20scene%20for%20the%20Friends%20of%20the%20Earth%20Nature%20Kit.jpeg">
+            </div>
+        </section>
+        <section>
+            <h3 class="question">Whant to talk to us about your brand or digital product?</h3>
+            <p class="b"><span>Get in touch</span></p>
+        </section>
+    </main>
+    <footer>
+        <div class="col-1">
+            <h5>Find us</h5>
+            <p>Fieldwork</p>
+            <p>Colony</p>
+            <p>Jactin House</p>
+            <p>24 Hood Street</p>
+            <p>Ancoats Manchester</p>
+            <p>M4 6WX</p>
+        </div>
+        <div class="col-2">
+            <h5>Get in touch</h5>
+            <a href="hello@madebyfieldwork.com">hello@madebyfieldwork.com</a>
+        </div>
+        <div class="col-3">
+            <i class="#"></i>
+            <i class="#"></i>
+            <i class="#"></i>
+            <i class="#"></i>
+        </div>
+    </footer>
+</body>
+</html>
